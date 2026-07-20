@@ -15,15 +15,16 @@ Personal learning repo for becoming an AI-ready Java engineer.
 - Ollama (local LLM — free)
 - Spring AI / LangChain4j (Month 2)
 - PostgreSQL + pgvector (RAG)
-- JUnit 5 + Mockito
+- JUnit 5 + Mockito + StepVerifier
 
 ---
 
 ## 90-Day Progress
 
 ### Month 1 — AI Fluency + LLM Fundamentals
-- [x] Week 1 Day 1 — Prompt practice on real Java code
-- [ ] Week 1 — Prompt cheat sheet (10 prompts)
+- [x] Week 1 Day 1 — Prompt practice on `ProductSnapshotTask.insert()`
+- [x] Week 1 Day 2 — Prompt practice on `findDupicateProductForProductCleanup`
+- [ ] Week 1 — Prompt cheat sheet (10 prompts) — in progress
 - [ ] Week 2 — `hello-llm`
 - [ ] Week 3 — `ticket-classifier`
 - [ ] Week 4 — `faq-search`
