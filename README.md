@@ -8,24 +8,24 @@ Personal learning repo for becoming an AI-ready Java engineer.
 
 ---
 
-## Stack (planned)
+## Stack
 
 - Java 17+
-- Spring Boot 3
-- Ollama (local LLM — free)
-- Spring AI / LangChain4j (Month 2)
-- PostgreSQL + pgvector (RAG)
+- Spring Boot 3.3
+- Spring AI + Ollama (local, free)
 - JUnit 5 + Mockito + StepVerifier
+- Later: RAG, pgvector, LangChain4j
 
 ---
 
 ## 90-Day Progress
 
 ### Month 1 — AI Fluency + LLM Fundamentals
-- [x] Week 1 Day 1 — Prompt practice on `ProductSnapshotTask.insert()`
-- [x] Week 1 Day 2 — Prompt practice on `findDupicateProductForProductCleanup`
-- [ ] Week 1 — Prompt cheat sheet (10 prompts) — in progress
-- [ ] Week 2 — `hello-llm`
+- [x] **Day 1** — AI prompts on `ProductSnapshotTask.insert()`
+- [x] **Day 2** — AI prompts on `findDupicateProductForProductCleanup`
+- [x] **Day 3** — Run `demoAI` with Ollama; learn tokens, temperature, embeddings, hallucination
+- [ ] Week 1 — Complete prompt cheat sheet habit (daily use)
+- [ ] Week 2 — `hello-llm` / deepen Spring AI endpoints
 - [ ] Week 3 — `ticket-classifier`
 - [ ] Week 4 — `faq-search`
 
@@ -43,14 +43,23 @@ Personal learning repo for becoming an AI-ready Java engineer.
 
 ---
 
+## Projects
+
+| Project | Location | Status |
+|---------|----------|--------|
+| **demoAI** | `D:\demo1\demoAI` (local) / `projects/demoAI/` | Spring AI + Ollama — chat, translate, memory, embeddings |
+| **hello-llm** | `projects/hello-llm/` | Covered by demoAI (Spring AI instead of plain Java HTTP) |
+
+---
+
 ## Repo structure
 
 | Folder | Purpose |
 |--------|---------|
 | `prompts/` | Reusable AI prompt cheat sheet |
-| `notes/` | Daily learning notes |
-| `reviews/` | Code reviews done with AI |
-| `projects/` | Mini projects (Week 2+) |
+| `notes/` | Daily learning notes (day-01, day-02, …) |
+| `reviews/` | Code reviews done with AI on work code |
+| `projects/` | Project docs and links |
 
 ---
 
@@ -66,9 +75,9 @@ Personal learning repo for becoming an AI-ready Java engineer.
 
 ## Learning order
 
-1. AI coding assistant mastery  
-2. LLM API from Java  
-3. Embeddings  
+1. AI coding assistant mastery ✅ (Week 1 in progress)  
+2. LLM API from Java ✅ (Day 3 — demoAI + Ollama)  
+3. Embeddings (started — `/embed`, `/similarity`)  
 4. RAG  
 5. Spring AI / LangChain4j  
 6. Tools / agents  
