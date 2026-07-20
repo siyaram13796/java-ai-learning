@@ -28,3 +28,12 @@ Call a local LLM from Java, test Spring AI endpoints, and learn core LLM concept
 ```bash
 cd D:\demo1\demoAI
 mvn spring-boot:run
+
+
+
+
+
+Token — what is it?
+Temperature — what does 0 vs 0.8 do?
+Embedding — what does /embed return?
+Hallucination — why can /movie invent a fake film?
