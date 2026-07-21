@@ -28,3 +28,25 @@ Local Spring Boot app for learning LLM features without paid APIs.
 ollama --version
 ollama pull llama3.2
 ollama pull mxbai-embed-large
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Month 1 — AI Fluency + LLM Fundamentals
+- [x] **Day 1** — AI prompts on `ProductSnapshotTask.insert()`
+- [x] **Day 2** — AI prompts on `findDupicateProductForProductCleanup`
+- [x] **Day 3** — demoAI + Ollama; tokens, temperature, embeddings, hallucination
+- [x] **Day 4** — Latency, temperature 0 vs 0.8, hallucination hunt, similarity
+- [x] **Day 5** — Work-code AI practice OR ticket classifier (structured JSON)
+- [ ] **Day 6** — Classifier hardening OR second work-code review
+- [ ] Week 3 — `ticket-classifier` complete
+- [ ] Week 4 — `faq-search`
