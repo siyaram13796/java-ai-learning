@@ -22,3 +22,36 @@ Start Week 4 skill early: **FAQ search with embeddings** (retrieval only, no LLM
 
 ```text
 question → embed → compare with each FAQ embedding → sort by score → top 3
+
+
+Test results
+User question	Top FAQ match	Score	Correct?
+forgot password
+payment failed money deducted
+app keeps crashing
+where is documentation
+wrong tax on invoice
+pizza (nonsense)
+Practice question answers
+1. What is the difference between /classify and /faq-search?
+Answer:
+
+2. What is cosine similarity in one sentence?
+Answer:
+
+3. Why return top-3 instead of only top-1?
+Answer:
+
+4. Why is FAQ search not full RAG yet?
+Answer:
+
+5. What can go wrong with embedding search on nonsense input?
+Answer:
+
+Learned today
+Tried / stuck
+Tomorrow (Day 9)
+
+ Add /faq-answer — LLM answers only from top-3 FAQ context
+
+ OR Track A: work-code AI review on one method
