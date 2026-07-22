@@ -80,3 +80,20 @@ ollama pull mxbai-embed-large
 - [x] **Day 6** — Harden classify (400 on blank, label validation, confidence gate); OOM → llama3.2:1b
 - [ ] **Day 7** — Few-shot classify examples OR faq-search start
 - [ ] Week 4 — `faq-search`
+
+
+
+
+
+
+
+
+
+
+
+## Day 7 — Few-shot `/classify`
+
+System prompt now includes 3 example tickets with expected JSON
+(BILLING, TECHNICAL, ACCOUNT), plus Day 6 Java guardrails.
+
+See [../../notes/day-07.md](../../notes/day-07.md)
