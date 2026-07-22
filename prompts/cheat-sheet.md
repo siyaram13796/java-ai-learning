@@ -33,3 +33,45 @@ Summarize this change for a GitLab MR: what changed, why, risks, and test plan. 
 10. Interview prep
 
 What interview questions could an interviewer ask about this code? Give brief model answers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Give me Day [N] practice schedule for my 90-day Java AI roadmap.
+
+Context:
+- Audience: Java developer (~5 years), learning AI with Spring + Ollama
+- Project: demoAI at D:\demo1\demoAI
+- Port: 8180
+- Completed so far: Day 1 to Day [N-1]
+- Yesterday I finished: [short summary, e.g. ticket classifier /classify]
+- Today I want focus: [choose one]
+  A) Work-code AI prompts (explain/refactor/security/tests)
+  B) demoAI feature practice (classifier/RAG/memory/etc.)
+  C) Concepts + interview questions only
+
+Please include:
+1. Time-boxed schedule (total ~2 hours)
+2. Exact practice steps
+3. What NOT to do today
+4. Success checklist
+5. GitHub files to create/update (with paste-ready content)
+6. 3–5 practice questions with blank answers for my notes
