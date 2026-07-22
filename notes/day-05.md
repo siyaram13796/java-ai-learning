@@ -102,3 +102,41 @@ Answer:
 
 ## One-line summary
 Day 5 complete: practiced [work-code AI review / ticket classifier structured output] and answered structured-output interview-style questions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practice question answers
+1. Why validate LLM output in Java, not only in the prompt?
+Answer: Prompts guide the model, but the model can still return invalid/unexpected values. Java validation is a hard guardrail: remap bad categories/priorities, block empty input, and enforce business rules so the API stays safe even when the LLM is wrong.
+
+2. Why is a confidence threshold useful?
+Answer: Low confidence means the model is unsure. Auto-routing unsure tickets can send work to the wrong team. If confidence < 0.7, mark as NEEDS_HUMAN_REVIEW so a person decides.
+
+3. What should happen for blank input — call LLM or fail fast?
+Answer: Fail fast with HTTP 400. Blank text wastes time/CPU, can cause bad/hallucinated output, and is not a valid ticket. Do not call the LLM.
+
+4. What’s the difference between prompt rules and code guardrails?
+Answer:
+
+Prompt rules = instructions to the model (“use only these categories”). Soft.
+Code guardrails = Java checks after the response (validate labels, confidence gate, 400 on blank). Hard. Production AI needs both.
+Learned today
+Structured output alone is not enough — add Java-side validation
+Confidence gates prevent blind trust in weak LLM answers
+Local Ollama can OOM; smaller models (llama3.2:1b) keep practice working
+Empty-input 400 is a good API design pattern
+Tried / stuck
+Ollama OOM with llama3.2 full model while Spring Boot was running
+Fixed by switching to llama3.2:1b and freeing RAM
+(Add more if needed)
