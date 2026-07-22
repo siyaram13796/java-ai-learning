@@ -50,3 +50,33 @@ ollama pull mxbai-embed-large
 - [ ] **Day 6** — Classifier hardening OR second work-code review
 - [ ] Week 3 — `ticket-classifier` complete
 - [ ] Week 4 — `faq-search`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## File 2: Update `README.md` (Month 1 progress)
+
+```markdown
+### Month 1 — AI Fluency + LLM Fundamentals
+- [x] **Day 1** — AI prompts on `ProductSnapshotTask.insert()`
+- [x] **Day 2** — AI prompts on `findDupicateProductForProductCleanup`
+- [x] **Day 3** — demoAI + Ollama; tokens, temperature, embeddings, hallucination
+- [x] **Day 4** — Latency, temperature 0 vs 0.8, hallucination hunt, similarity
+- [x] **Day 5** — Ticket classifier `/classify` (structured JSON)
+- [x] **Day 6** — Harden classify (400 on blank, label validation, confidence gate); OOM → llama3.2:1b
+- [ ] **Day 7** — Few-shot classify examples OR faq-search start
+- [ ] Week 4 — `faq-search`
