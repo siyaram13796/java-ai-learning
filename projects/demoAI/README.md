@@ -99,6 +99,25 @@ System prompt now includes 3 example tickets with expected JSON
 See [../../notes/day-07.md](../../notes/day-07.md)
 
 
+
+### Update `README.md`
+
+```markdown
+- [x] **Day 8** — FAQ search with embeddings (top-3 retrieval)
+- [x] **Day 9** — RAG-lite: `/faq-answer` from retrieved FAQ context
+- [ ] **Day 10** — Retrieval score threshold + hardening
+
+
+
+### Update `README.md`
+
+```markdown
+- [x] **Day 8** — FAQ search with embeddings (top-3 retrieval)
+- [x] **Day 9** — RAG-lite: `/faq-answer` from retrieved FAQ context
+- [ ] **Day 10** — Retrieval score threshold + hardening
+
+
+
 ## Day 10 — Score threshold
 
 `/faq-answer` now checks top similarity score.
