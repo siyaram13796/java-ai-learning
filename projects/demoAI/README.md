@@ -97,3 +97,13 @@ System prompt now includes 3 example tickets with expected JSON
 (BILLING, TECHNICAL, ACCOUNT), plus Day 6 Java guardrails.
 
 See [../../notes/day-07.md](../../notes/day-07.md)
+
+
+## Day 10 — Score threshold
+
+`/faq-answer` now checks top similarity score.
+If `topScore < FAQ_MIN_SCORE` → return `I don't know` without calling the LLM.
+
+Tune threshold using `/faq-search` scores.
+
+See [../../notes/day-10.md](../../notes/day-10.md)
