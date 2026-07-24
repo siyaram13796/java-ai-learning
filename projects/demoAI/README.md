@@ -126,3 +126,20 @@ If `topScore < FAQ_MIN_SCORE` → return `I don't know` without calling the LLM.
 Tune threshold using `/faq-search` scores.
 
 See [../../notes/day-10.md](../../notes/day-10.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Day 11 — FAQ embedding cache
+- [x] **Day 10** — FAQ score threshold (skip LLM on weak matches)
+- [x] **Day 11** — Cache FAQ embeddings at startup
+- [ ] **Day 12** — Work-code AI practice OR interview Qs on RAG
